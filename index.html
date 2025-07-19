@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pocket Money Tracker 💸</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>💸 Pocket Money Tracker</h1>
+
+      <section class="budget-input">
+        <label for="monthlyBudget">Enter Monthly Pocket Money 💰</label>
+        <input type="number" id="monthlyBudget" placeholder="e.g., 5000" />
+      </section>
+
+      <section class="essentials">
+        <h2>📌 Monthly Essentials</h2>
+        <input type="number" placeholder="🏠 Rent/Hostel" class="essential" />
+        <input type="number" placeholder="🍽️ Groceries" class="essential" />
+        <input type="number" placeholder="📱 Recharge" class="essential" />
+        <input type="number" placeholder="🚌 Transport" class="essential" />
+        <input type="number" placeholder="💡 Bills" class="essential" />
+      </section>
+
+      <section class="optionals">
+        <h2>🎨 Optional Categories (Editable)</h2>
+        <div class="optional-item">
+          <input type="text" value="☕ Cafe" class="label-input" />
+          <input type="number" class="optional" />
+        </div>
+        <div class="optional-item">
+          <input type="text" value="📚 Study Material" class="label-input" />
+          <input type="number" class="optional" />
+        </div>
+        <div class="optional-item">
+          <input type="text" value="✈️ Travel" class="label-input" />
+          <input type="number" class="optional" />
+        </div>
+        <div class="optional-item">
+          <input type="text" value="🎉 Party" class="label-input" />
+          <input type="number" class="optional" />
+        </div>
+      </section>
+
+      <button id="calculateBtn">Calculate 💡</button>
+
+      <div id="remainingBalance">🧮 Remaining: ₹0</div>
+      <div id="messageBox">🌟 Your saving story appears here!</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

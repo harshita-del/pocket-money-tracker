@@ -1,0 +1,73 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  color: #333;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff8dc;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ffa500;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+.optional-item {
+  display: flex;
+  gap: 10px;
+}
+
+.optional-item input[type="text"] {
+  width: 50%;
+}
+
+.optional-item input[type="number"] {
+  width: 50%;
+}
+
+#calculateBtn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+#remainingBalance {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+#messageBox {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+  background: #fff3cd;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
